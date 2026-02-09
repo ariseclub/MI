@@ -1,0 +1,71 @@
+{
+    "center": {
+        "name": "UCJC - Castellana",
+        "coordinates": [40.46024198684876,-3.688581982462434],
+        "description": "Punto de referencia del mapa.",
+        "zoom": 17
+    },
+    "places": [
+        {
+            "name": "Copistería Eurobuilding",
+            "googleUrl": "https://www.google.com/maps/place/Copisteria+Eurobuilding/@40.45848827906658,-3.686694660833761,18z",
+            "description": "Impresiones, fotocopias y encuadernaciones.",
+            "category": "Servicios"
+        },
+        {
+            "name": "Sumo",
+            "googleUrl": "https://www.google.com/maps/place/SUMO/@40.45954072449055,-3.692679466093115,18z",
+            "description": "Buffet de comida asiática.",
+            "category": "Restaurantes"
+        },
+        {
+            "name": "Día",
+            "googleUrl": "https://www.google.com/maps/place/DIA/@40.46084832056749,-3.687988286839774,18z",
+            "description": "Supermercado para tus compras diarias.",
+            "category": "Supermercados"
+        },
+        {
+            "name": "Mercadona",
+            "googleUrl": "https://www.google.com/maps/place/Mercadona/@40.45727942664867,-3.691289252499014,18z",
+            "description": "Más cerca de cuzco que de la universidad.",
+            "category": "Supermercados"
+        },
+        {
+            "name": "Respiro",
+            "googleUrl": "https://www.google.com/maps/place/Respiro/@40.46059996896225,-3.688214500166366,18z",
+            "description": "Tercios y refrescos a 2,12€ con el descuento de la universidad.",
+            "category": "Restaurantes"
+        },
+        {
+            "name": "Metro Cuzco",
+            "googleUrl": "https://www.google.com/maps/place/Cuzco/@40.4583111,-3.6899247,18z",
+            "description": "Metro a 4m de la universidad.",
+            "category": "Transporte"
+        },
+        {
+            "name": "Parking Cuzco",
+            "googleUrl": "https://www.google.com/maps/place/Parking+Cuzco/@40.4583805,-3.6908015,18z",
+            "description": "Parking de pago cercano a la universidad.",
+            "category": "Parking"
+        },
+        {
+            "name": "Popeyes",
+            "googleUrl": "https://www.google.com/maps/place/Popeyes+Famous+Louisiana+Chicken/@40.4580917,-3.6904401,18z",
+            "description": "Restaurante de comida rápida.",
+            "category": "Restaurantes"            
+        },
+        {
+            "name": "Jose Pan",
+            "googleUrl": "https://www.google.com/maps/place/Josepan+La+Castellana/@40.4601467,-3.6892682,18z",
+            "description": "Restaurante de comida colombiana.",
+            "category": "Restaurantes"              
+        },
+        {
+            "name": "Parking Disuasorio Ciudad Universitaria",
+            "googleUrl": "https://www.google.com/maps/place/Aparcamiento+Ciudad+Universitaria/@40.442280443714694,-3.7268607363493778,18z",
+            "description": "Parking gratis para usuarios del transporte público (estancia de 5 a 16 horas), a 25 minutos de la universidad.",
+            "category": "Parking"
+        }
+            
+    ]
+}

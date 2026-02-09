@@ -1,0 +1,25 @@
+{
+    "defaultColor": "#6c5ce7",
+    "categories": [
+        {
+            "name": "Servicios",
+            "color": "#f97316"
+        },
+        {
+            "name": "Restaurantes",
+            "color": "#22c55e"
+        },
+        {
+            "name": "Supermercados",
+            "color": "#0ea5e9"
+        },
+        {
+            "name": "Transporte",
+            "color": "#eab308"
+        },
+        {
+            "name": "Parking",
+            "color": "#a855f7"
+        }
+    ]
+}

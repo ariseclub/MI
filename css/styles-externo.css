@@ -1,0 +1,220 @@
+:root {
+    --glass-bg: rgba(255, 255, 255, 0.08);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --accent: #6c5ce7;
+    --text: #eaeff7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html,
+body,
+#map {
+    height: 100%;
+}
+
+body {
+    font-family: Inter, system-ui, Arial, sans-serif;
+    background: linear-gradient(180deg, #0f1724 0%, #071428 100%);
+    color: var(--text);
+    overflow: hidden
+}
+
+#map {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 320px;
+    bottom: 0;
+    transition: left .25s ease
+}
+
+#sidebar {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+    width: 288px;
+    padding: 18px;
+    border-radius: 14px;
+    backdrop-filter: blur(8px) saturate(120%);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+    display: flex;
+    flex-direction: column;
+    transition: transform .25s ease, opacity .2s ease
+}
+
+.sidebar-header h1 {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+#search {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text);
+    outline: none;
+    margin-bottom: 10px
+}
+
+.filters {
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px
+}
+
+.chip {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    cursor: pointer;
+    font-size: 13px
+}
+
+.chip.active {
+    background: linear-gradient(90deg, var(--accent), #00c6ff);
+    color: #041124;
+    border: none
+}
+
+.places-list {
+    list-style: none;
+    overflow: auto;
+    padding-right: 6px
+}
+
+.places-list li {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.18);
+    cursor: pointer
+}
+
+.places-list li:hover {
+    transform: translateY(-3px);
+    filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35));
+}
+
+.places-list .place-title {
+    font-weight: 600
+}
+
+.places-list .place-desc {
+    font-size: 13px;
+    color: rgba(234, 239, 247, 0.8);
+    margin-top: 6px
+}
+
+.attribution {
+    font-size: 12px;
+    color: rgba(234, 239, 247, 0.6);
+    margin-top: 8px
+}
+
+.go-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(108, 92, 231, 0.2);
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid rgba(108, 92, 231, 0.7)
+}
+
+.go-link:hover {
+    background: linear-gradient(90deg, var(--accent), #00c6ff);
+    color: #041124;
+    border-color: transparent
+}
+
+.places-list {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(108, 92, 231, 0.95) transparent;
+}
+
+.places-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.places-list::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.05));
+    border-radius: 12px;
+}
+
+.places-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(108, 92, 231, 0.95), rgba(0, 198, 255, 0.95));
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.places-list::-webkit-scrollbar-thumb:hover {
+    filter: brightness(1.05);
+}
+
+body.sidebar-collapsed #sidebar {
+    transform: translateX(-120%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.sidebar-collapsed #map {
+    left: 0;
+}
+
+
+.marker-pin {
+    position: relative;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    border: 2px solid rgba(0, 0, 0, 0.65);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.marker-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width:900px) {
+    #sidebar {
+        left: 8px;
+        right: 8px;
+        top: 8px;
+        width: auto;
+        height: 42%;
+        border-radius: 12px
+    }
+
+    #map {
+        left: 0;
+        top: calc(42% + 24px)
+    }
+
+    body.sidebar-collapsed #sidebar {
+        transform: translateY(-120%);
+    }
+
+    body.sidebar-collapsed #map {
+        top: 0;
+    }
+}

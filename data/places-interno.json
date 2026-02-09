@@ -1,0 +1,181 @@
+{
+  "imageSize": {
+    "width": 8706,
+    "height": 11785
+  },
+  "floors": [
+    { "id": "P0", "name": "Planta 0", "image": "img/0.jpg" },
+    { "id": "P1", "name": "Planta 1", "image": "img/1.jpg" },
+    { "id": "P2", "name": "Planta 2", "image": "img/2.jpg" },
+    { "id": "P3", "name": "Planta 3", "image": "img/3.jpg" }
+  ],
+  "center": {
+    "floor": "P0",
+    "coordinates": [3508, 4967],
+    "description": "Centro del plano interno.",
+    "zoom": -2
+  },
+  "places": [
+    {
+      "name": "Recepción",
+      "floor": "P0",
+      "coordinates": [4588, 7826],
+      "description": "Punto de información y acceso principal.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Dirección de Estudiantes",
+      "floor": "P0",
+      "coordinates": [5615, 6369],
+      "description": "Oficina de gestión y atención al alumnado.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Salón de Actos",
+      "floor": "P0",
+      "coordinates": [3748, 10497],
+      "description": "Espacio para eventos y conferencias.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Cafetería",
+      "floor": "P0",
+      "coordinates": [2060, 6523],
+      "description": "Área de restauración.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Zona de Estudio",
+      "floor": "P0",
+      "coordinates": [4324, 2727],
+      "description": "Espacio habilitado para el estudio silencioso.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Laboratorio Criminología",
+      "floor": "P0",
+      "coordinates": [4804, 939],
+      "description": "Laboratorio de prácticas forenses.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Laboratorio Informática",
+      "floor": "P0",
+      "coordinates": [6122, 808],
+      "description": "Aula equipada con estaciones de trabajo.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Laboratorio Robótica",
+      "floor": "P0",
+      "coordinates": [7615, 821],
+      "description": "Taller de desarrollo de sistemas autónomos.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Aseos Hombre",
+      "floor": "P0",
+      "coordinates": [2509, 4913],
+      "description": "Servicios higiénicos masculinos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Aseos Mujer",
+      "floor": "P0",
+      "coordinates": [6138, 4919],
+      "description": "Servicios higiénicos femeninos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Zona de Estudio",
+      "floor": "P1",
+      "coordinates": [4711, 2504],
+      "description": "Área de estudio ubicada en la primera planta.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Aseos Hombre",
+      "floor": "P1",
+      "coordinates": [6126, 4918],
+      "description": "Servicios higiénicos masculinos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Aseos Mujer",
+      "floor": "P1",
+      "coordinates": [2508, 4932],
+      "description": "Servicios higiénicos femeninos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Despachos",
+      "floor": "P1",
+      "coordinates": [6891 , 5096],
+      "description": "Despachos individuales de profesores y personal.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Agora",
+      "floor": "P2",
+      "coordinates": [3827 , 2559],
+      "description": "Espacio de encuentro, presentaciones y foros.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Salas de Tutorías",
+      "floor": "P2",
+      "coordinates": [5017 , 2591],
+      "description": "Salas para reuniones de tutorías y asesoramiento.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Sala de Profesores",
+      "floor": "P2",
+      "coordinates": [1492 , 6392],
+      "description": "Espacio destinado para el descanso y trabajo del profesorado.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Zona de Networking",
+      "floor": "P2",
+      "coordinates": [2596 , 6275],
+      "description": "Área destinada para la interacción/estudio de estudiantes y profesores.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Aseos Hombre",
+      "floor": "P2",
+      "coordinates": [2519 , 4929],
+      "description": "Servicios higiénicos masculinos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Aseos Mujer",
+      "floor": "P2",
+      "coordinates": [6036 , 4973],
+      "description": "Servicios higiénicos femeninos.",
+      "category": "Aseos"
+    },
+    {
+      "name": "Azotea",
+      "floor": "P3",
+      "coordinates": [4290 , 3436],
+      "description": "Área al aire libre en la azotea.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Terraza Frontal",
+      "floor": "P3",
+      "coordinates": [4531 , 8177],
+      "description": "Terraza con vistas a la entrada principal.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Salas de Reuniones y Despachos",
+      "floor": "P3",
+      "coordinates": [5148 , 7037],
+      "description": "Salas de reuniones y despachos, poco frecuentadas por alumnos.",
+      "category": "Departamentos"
+    }
+  ]
+}

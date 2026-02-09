@@ -1,0 +1,25 @@
+{
+    "defaultColor": "#6c5ce7",
+    "categories": [
+        {
+            "name": "Aulas",
+            "color": "#22c55e"
+        },
+        {
+            "name": "Laboratorios",
+            "color": "#f97316"
+        },
+        {
+            "name": "Zonas Comunes",
+            "color": "#0ea5e9"
+        },
+        {
+            "name": "Aseos",
+            "color": "#eab308"
+        },
+        {
+            "name": "Departamentos",
+            "color": "#a855f7"
+        }
+    ]
+}
