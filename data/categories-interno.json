@@ -20,6 +20,14 @@
         {
             "name": "Departamentos",
             "color": "#a855f7"
+        },
+        {
+            "name": "Utilidades",
+            "color": "#ef4444"
+        },
+        {
+            "name": "Despachos",
+            "color": "#ec4899"
         }
     ]
 }
