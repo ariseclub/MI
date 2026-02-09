@@ -268,7 +268,7 @@ async function main() {
                 const link = L.DomUtil.create('a', '', container);
                 link.href = '#';
                 link.title = floor.name || `Planta ${index}`;
-                link.innerHTML = `P${index}`;
+                link.innerHTML = `P${index+1}`;
                 link.dataset.floorId = floor.id;
                 if (floor.id === currentFloorId) {
                     link.classList.add('active-floor');
@@ -293,4 +293,5 @@ async function main() {
 }
 
 window.addEventListener('load', main);
+
 
