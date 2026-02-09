@@ -4,178 +4,619 @@
     "height": 11785
   },
   "floors": [
-    { "id": "P0", "name": "Planta 0", "image": "img/0.jpg" },
     { "id": "P1", "name": "Planta 1", "image": "img/1.jpg" },
     { "id": "P2", "name": "Planta 2", "image": "img/2.jpg" },
-    { "id": "P3", "name": "Planta 3", "image": "img/3.jpg" }
+    { "id": "P3", "name": "Planta 3", "image": "img/3.jpg" },
+    { "id": "P4", "name": "Planta 4", "image": "img/4.jpg" }
   ],
   "center": {
-    "floor": "P0",
+    "floor": "P1",
     "coordinates": [3508, 4967],
     "description": "Centro del plano interno.",
     "zoom": -2
   },
   "places": [
     {
-      "name": "Recepción",
-      "floor": "P0",
-      "coordinates": [4588, 7826],
-      "description": "Punto de información y acceso principal.",
-      "category": "Departamentos"
-    },
-    {
-      "name": "Dirección de Estudiantes",
-      "floor": "P0",
-      "coordinates": [5615, 6369],
-      "description": "Oficina de gestión y atención al alumnado.",
-      "category": "Departamentos"
-    },
-    {
-      "name": "Salón de Actos",
-      "floor": "P0",
-      "coordinates": [3748, 10497],
-      "description": "Espacio para eventos y conferencias.",
-      "category": "Zonas Comunes"
-    },
-    {
-      "name": "Cafetería",
-      "floor": "P0",
-      "coordinates": [2060, 6523],
-      "description": "Área de restauración.",
-      "category": "Zonas Comunes"
-    },
-    {
-      "name": "Zona de Estudio",
-      "floor": "P0",
-      "coordinates": [4324, 2727],
-      "description": "Espacio habilitado para el estudio silencioso.",
-      "category": "Zonas Comunes"
-    },
-    {
-      "name": "Laboratorio Criminología",
-      "floor": "P0",
-      "coordinates": [4804, 939],
-      "description": "Laboratorio de prácticas forenses.",
-      "category": "Laboratorios"
-    },
-    {
-      "name": "Laboratorio Informática",
-      "floor": "P0",
-      "coordinates": [6122, 808],
-      "description": "Aula equipada con estaciones de trabajo.",
-      "category": "Laboratorios"
-    },
-    {
-      "name": "Laboratorio Robótica",
-      "floor": "P0",
-      "coordinates": [7615, 821],
-      "description": "Taller de desarrollo de sistemas autónomos.",
-      "category": "Laboratorios"
-    },
-    {
       "name": "Aseos Hombre",
-      "floor": "P0",
+      "floor": "P1",
       "coordinates": [2509, 4913],
       "description": "Servicios higiénicos masculinos.",
       "category": "Aseos"
     },
     {
       "name": "Aseos Mujer",
-      "floor": "P0",
+      "floor": "P1",
       "coordinates": [6138, 4919],
       "description": "Servicios higiénicos femeninos.",
       "category": "Aseos"
     },
     {
+      "name": "Biblioteca",
+      "floor": "P1",
+      "coordinates": [8092, 8458],
+      "description": "Espacio dedicado al estudio, la lectura y la consulta de material bibliográfico.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Cafetería",
+      "floor": "P1",
+      "coordinates": [2060, 6523],
+      "description": "Área de restauración con servicio de comidas y bebidas.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Dirección de Estudiantes",
+      "floor": "P1",
+      "coordinates": [5615, 6369],
+      "description": "Oficina de gestión y atención al alumnado.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "El Español",
+      "floor": "P1",
+      "coordinates": [7278, 4868],
+      "description": "Espacio de redacción del periódico El Español, dedicado a labores periodísticas y editoriales.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Fuente",
+      "floor": "P1",
+      "coordinates": [6471, 4387],
+      "description": "Fuente de agua potable para estudiantes y personal.",
+      "category": "Utilidades"
+    },
+    {
+      "name": "L1.01",
+      "floor": "P1",
+      "coordinates": [1056, 3292],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.02",
+      "floor": "P1",
+      "coordinates": [1107, 2447],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.03",
+      "floor": "P1",
+      "coordinates": [2170, 3254],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.04",
+      "floor": "P1",
+      "coordinates": [2209, 2447],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.05",
+      "floor": "P1",
+      "coordinates": [1325, 1640],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.10",
+      "floor": "P1",
+      "coordinates": [7855, 2229],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.11",
+      "floor": "P1",
+      "coordinates": [6600, 2306],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.12",
+      "floor": "P1",
+      "coordinates": [6613, 3382],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.13",
+      "floor": "P1",
+      "coordinates": [7944, 3382],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L1.16",
+      "floor": "P1",
+      "coordinates": [7227, 6123],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "Laboratorio Criminología",
+      "floor": "P1",
+      "coordinates": [4804, 939],
+      "description": "Laboratorio especializado en prácticas forenses y criminológicas.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Laboratorio Informática",
+      "floor": "P1",
+      "coordinates": [6122, 808],
+      "description": "Laboratorio equipado con estaciones de trabajo para prácticas informáticas.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Laboratorio Robótica",
+      "floor": "P1",
+      "coordinates": [7615, 821],
+      "description": "Laboratorio dedicado al desarrollo y práctica de sistemas autónomos y robótica.",
+      "category": "Laboratorios"
+    },
+    {
+      "name": "Recepción",
+      "floor": "P1",
+      "coordinates": [4588, 7826],
+      "description": "Punto de información y acceso principal al edificio.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Salón de Actos",
+      "floor": "P1",
+      "coordinates": [3748, 10497],
+      "description": "Espacio amplio para eventos, conferencias y actos académicos.",
+      "category": "Zonas Comunes"
+    },
+    {
       "name": "Zona de Estudio",
       "floor": "P1",
-      "coordinates": [4711, 2504],
-      "description": "Área de estudio ubicada en la primera planta.",
+      "coordinates": [4324, 2727],
+      "description": "Espacio habilitado para el estudio individual o en grupo.",
       "category": "Zonas Comunes"
     },
     {
       "name": "Aseos Hombre",
-      "floor": "P1",
+      "floor": "P2",
       "coordinates": [6126, 4918],
       "description": "Servicios higiénicos masculinos.",
       "category": "Aseos"
     },
     {
       "name": "Aseos Mujer",
-      "floor": "P1",
+      "floor": "P2",
       "coordinates": [2508, 4932],
       "description": "Servicios higiénicos femeninos.",
       "category": "Aseos"
     },
     {
-      "name": "Despachos",
-      "floor": "P1",
-      "coordinates": [6891 , 5096],
-      "description": "Despachos individuales de profesores y personal.",
+      "name": "Despacho",
+      "floor": "P2",
+      "coordinates": [749, 4930],
+      "description": "Despacho de trabajo administrativo o docente.",
+      "category": "Despachos"
+    },
+    {
+      "name": "Despacho",
+      "floor": "P2",
+      "coordinates": [749, 5558],
+      "description": "Despacho de trabajo administrativo o docente.",
+      "category": "Despachos"
+    },
+    {
+      "name": "Despacho",
+      "floor": "P2",
+      "coordinates": [774, 6437],
+      "description": "Despacho de trabajo administrativo o docente.",
+      "category": "Despachos"
+    },
+    {
+      "name": "Despacho",
+      "floor": "P2",
+      "coordinates": [6986, 4813],
+      "description": "Despacho de trabajo administrativo o docente.",
+      "category": "Despachos"
+    },
+    {
+      "name": "Despacho",
+      "floor": "P2",
+      "coordinates": [6994, 5541],
+      "description": "Despacho de trabajo administrativo o docente.",
+      "category": "Despachos"
+    },
+    {
+      "name": "F.08",
+      "floor": "P2",
+      "coordinates": [5437, 7248],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "F.09",
+      "floor": "P2",
+      "coordinates": [6726, 7223],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "F1",
+      "floor": "P2",
+      "coordinates": [2214, 2444],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "F2",
+      "floor": "P2",
+      "coordinates": [1067, 2444],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "Fuente",
+      "floor": "P2",
+      "coordinates": [2101, 4369],
+      "description": "Fuente de agua potable para estudiantes y personal.",
+      "category": "Utilidades"
+    },
+    {
+      "name": "Impresora",
+      "floor": "P2",
+      "coordinates": [7865, 5658],
+      "description": "Zona con impresora compartida disponible para uso de estudiantes y personal.",
+      "category": "Utilidades"
+    },
+    {
+      "name": "L2.01",
+      "floor": "P2",
+      "coordinates": [1042, 3407],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.02",
+      "floor": "P2",
+      "coordinates": [2181, 3356],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.14",
+      "floor": "P2",
+      "coordinates": [6634, 8127],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.15",
+      "floor": "P2",
+      "coordinates": [5521, 8035],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.16",
+      "floor": "P2",
+      "coordinates": [3654, 7977],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.17",
+      "floor": "P2",
+      "coordinates": [2072, 8069],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.18",
+      "floor": "P2",
+      "coordinates": [3679, 7282],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L2.19",
+      "floor": "P2",
+      "coordinates": [2072, 7190],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "M2.03",
+      "floor": "P2",
+      "coordinates": [925, 1615],
+      "description": "Sala de reuniones para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M2.04",
+      "floor": "P2",
+      "coordinates": [1360, 1590],
+      "description": "Sala de reuniones para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M2.05",
+      "floor": "P2",
+      "coordinates": [1888, 1624],
+      "description": "Sala de reuniones para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M2.06",
+      "floor": "P2",
+      "coordinates": [2415, 1599],
+      "description": "Sala de reuniones para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "Máquinas Expendedoras",
+      "floor": "P2",
+      "coordinates": [5921, 4387],
+      "description": "Zona con máquinas expendedoras de bebidas y snacks.",
+      "category": "Utilidades"
+    },
+    {
+      "name": "R2.07",
+      "floor": "P2",
+      "coordinates": [6115, 653],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R2.08",
+      "floor": "P2",
+      "coordinates": [7572, 569],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R2.09",
+      "floor": "P2",
+      "coordinates": [7722, 1498],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R2.10",
+      "floor": "P2",
+      "coordinates": [7722, 2377],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R2.11",
+      "floor": "P2",
+      "coordinates": [7722, 3440],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "Rack Room",
+      "floor": "P2",
+      "coordinates": [1804, 4930],
+      "description": "Sala técnica que alberga racks y equipamiento informático.",
       "category": "Departamentos"
     },
     {
-      "name": "Agora",
+      "name": "Zona de Estudio",
       "floor": "P2",
-      "coordinates": [3827 , 2559],
-      "description": "Espacio de encuentro, presentaciones y foros.",
+      "coordinates": [4711, 2504],
+      "description": "Espacio habilitado para el estudio individual o en grupo.",
       "category": "Zonas Comunes"
-    },
-    {
-      "name": "Salas de Tutorías",
-      "floor": "P2",
-      "coordinates": [5017 , 2591],
-      "description": "Salas para reuniones de tutorías y asesoramiento.",
-      "category": "Departamentos"
-    },
-    {
-      "name": "Sala de Profesores",
-      "floor": "P2",
-      "coordinates": [1492 , 6392],
-      "description": "Espacio destinado para el descanso y trabajo del profesorado.",
-      "category": "Departamentos"
     },
     {
       "name": "Zona de Networking",
       "floor": "P2",
-      "coordinates": [2596 , 6275],
-      "description": "Área destinada para la interacción/estudio de estudiantes y profesores.",
+      "coordinates": [2356, 6219],
+      "description": "Área destinada a la interacción y el estudio entre estudiantes y profesores.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Zona de Networking",
+      "floor": "P2",
+      "coordinates": [6080, 6235],
+      "description": "Área destinada a la interacción y el estudio entre estudiantes y profesores.",
+      "category": "Zonas Comunes"
+    },
+    {
+      "name": "Agora",
+      "floor": "P3",
+      "coordinates": [3827, 2559],
+      "description": "Espacio abierto para encuentros, presentaciones y foros.",
       "category": "Zonas Comunes"
     },
     {
       "name": "Aseos Hombre",
-      "floor": "P2",
-      "coordinates": [2519 , 4929],
+      "floor": "P3",
+      "coordinates": [2519, 4929],
       "description": "Servicios higiénicos masculinos.",
       "category": "Aseos"
     },
     {
       "name": "Aseos Mujer",
-      "floor": "P2",
-      "coordinates": [6036 , 4973],
+      "floor": "P3",
+      "coordinates": [6036, 4973],
       "description": "Servicios higiénicos femeninos.",
       "category": "Aseos"
     },
     {
-      "name": "Azotea",
+      "name": "F.19",
       "floor": "P3",
-      "coordinates": [4290 , 3436],
-      "description": "Área al aire libre en la azotea.",
+      "coordinates": [5638, 7811],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "F.21",
+      "floor": "P3",
+      "coordinates": [6727, 7784],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.15",
+      "floor": "P3",
+      "coordinates": [6312, 6270],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.16",
+      "floor": "P3",
+      "coordinates": [4335, 7792],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.17",
+      "floor": "P3",
+      "coordinates": [3163, 7403],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.18",
+      "floor": "P3",
+      "coordinates": [3204, 8192],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.19",
+      "floor": "P3",
+      "coordinates": [1449, 8260],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "L3.20",
+      "floor": "P3",
+      "coordinates": [1490, 7403],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "M3.04",
+      "floor": "P3",
+      "coordinates": [5046, 3693],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M3.05",
+      "floor": "P3",
+      "coordinates": [5017, 3272],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M3.06",
+      "floor": "P3",
+      "coordinates": [5036, 2933],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M3.07",
+      "floor": "P3",
+      "coordinates": [5036, 2576],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M3.08",
+      "floor": "P3",
+      "coordinates": [4993, 2222],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "M3.09",
+      "floor": "P3",
+      "coordinates": [5017, 1894],
+      "description": "Sala de reuniones y tutorías para encuentros y trabajo colaborativo.",
+      "category": "Despachos"
+    },
+    {
+      "name": "R3.01",
+      "floor": "P3",
+      "coordinates": [1797, 4189],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R3.02",
+      "floor": "P3",
+      "coordinates": [1760, 3568],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R3.03",
+      "floor": "P3",
+      "coordinates": [1847, 1367],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R3.13",
+      "floor": "P3",
+      "coordinates": [6447, 3412],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R3.14",
+      "floor": "P3",
+      "coordinates": [6386, 2437],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "R3.15",
+      "floor": "P3",
+      "coordinates": [6351, 1462],
+      "description": "Aula destinada a actividades docentes.",
+      "category": "Aulas"
+    },
+    {
+      "name": "Sala de Profesores",
+      "floor": "P3",
+      "coordinates": [1492, 6392],
+      "description": "Espacio destinado al descanso y trabajo del profesorado.",
+      "category": "Departamentos"
+    },
+    {
+      "name": "Zona de Networking",
+      "floor": "P3",
+      "coordinates": [2596, 6275],
+      "description": "Área destinada a la interacción y el estudio entre estudiantes y profesores.",
       "category": "Zonas Comunes"
     },
     {
-      "name": "Terraza Frontal",
-      "floor": "P3",
-      "coordinates": [4531 , 8177],
-      "description": "Terraza con vistas a la entrada principal.",
+      "name": "Azotea",
+      "floor": "P4",
+      "coordinates": [4290, 3436],
+      "description": "Área al aire libre en la parte superior del edificio.",
       "category": "Zonas Comunes"
     },
     {
       "name": "Salas de Reuniones y Despachos",
-      "floor": "P3",
-      "coordinates": [5148 , 7037],
-      "description": "Salas de reuniones y despachos, poco frecuentadas por alumnos.",
+      "floor": "P4",
+      "coordinates": [5148, 7037],
+      "description": "Conjunto de salas de reuniones y despachos para uso administrativo.",
       "category": "Departamentos"
+    },
+    {
+      "name": "Terraza Frontal",
+      "floor": "P4",
+      "coordinates": [4531, 8177],
+      "description": "Terraza exterior con vistas a la entrada principal.",
+      "category": "Zonas Comunes"
     }
   ]
 }
