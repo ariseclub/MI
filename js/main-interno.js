@@ -102,7 +102,7 @@ function initMap(center, imageSize) {
             });
             L.DomEvent.on(switchLink, 'click', function (e) {
                 L.DomEvent.preventDefault(e);
-                window.location.href = 'index-externo.html';
+                window.location.href = 'index.html';
             });
 
             return container;
@@ -293,3 +293,4 @@ async function main() {
 }
 
 window.addEventListener('load', main);
+
