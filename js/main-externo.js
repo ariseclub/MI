@@ -41,7 +41,6 @@ function initMap(center) {
         ${center.description || ''}
     `);
 
-    // control para mostrar/ocultar el menú lateral y cambiar de mapa
     const MenuControl = L.Control.extend({
         onAdd: function () {
             const container = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
@@ -63,7 +62,7 @@ function initMap(center) {
             });
             L.DomEvent.on(switchLink, 'click', function (e) {
                 L.DomEvent.preventDefault(e);
-                window.location.href = 'index-interno.html';
+                window.location.href = 'indexi.html';
             });
 
             return container;
@@ -241,3 +240,4 @@ async function main() {
 }
 
 window.addEventListener('load', main);
+
